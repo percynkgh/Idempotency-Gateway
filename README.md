@@ -45,6 +45,8 @@ uvicorn main:app --reload
 
 Server will be running at **http://127.0.0.1:8000**
 
+To test the API, visit the interactive docs at: **http://127.0.0.1:8000/docs**
+
 ---
 
 ## API Documentation
