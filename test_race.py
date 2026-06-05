@@ -28,6 +28,6 @@ print("Request 1 result:", results[0])
 print("Request 2 result:", results[1])
 
 if results[0] == results[1]:
-    print("\n✅ RACE CONDITION HANDLED - Both got the same response!")
+    print("\n RACE CONDITION HANDLED - Both got the same response!")
 else:
-    print("\n❌ RACE CONDITION FAILED - Different responses returned!")
+    print("\n RACE CONDITION FAILED - Different responses returned!")
